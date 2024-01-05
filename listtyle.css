@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: Roboto;
+    color: #0B0909;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    text-align: start;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+header {
+    height: 260px;
+    background: linear-gradient(180deg, #CAC0B4 0%, rgba(202, 192, 180, 0.00) 100%);
+}
+
+header img {
+    width: 149px;
+    height: 234px;
+}
+
+.nav {
+    margin-top: 47px;
+    margin-bottom: 21px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #808080;
+}
+
+.container {
+    max-width: 1110px;
+}
+
+.info {
+    margin-top: 55px;
+    margin-bottom: 52px;
+}
+
+.info__symbol {
+    background: #D9D9D9;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__symbol:hover {
+    background: #A0A0A0;
+}
+
+.find {
+    margin-top: 47px;
+    margin-bottom: 32px;
+}
+
+.find__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.info__letters {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5.07px;
+    row-gap: 4.11px;
+}
+
+.info__numbers {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.7px;
+    row-gap: 3.83px;
+}
+
+.info__letter {
+    width: 45.652px;
+    height: 43.104px;
+}
+
+.info__number {
+    width: 33.261px;
+    height: 43.904px;
+}
+
+.info__clumba {
+    width: 107.174px;
+    height: 43.904px;
+}
+
+.info__name p {
+    font-size: 24px;
+}
+
+.info__text {
+    padding-left: 12px;
+}
+
+.find__body p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.find__alpha {
+    width: 350px;
+}
+
+.find__area {
+    width: 255px;
+}
+
+.find__fam {
+    width: 445px;
+}
+
+input {
+    border: none;
+    height: 22px;
+    border-radius: 4px;
+    background: #D9D9D9;
+    text-align: start;
+    width: 100%;
+    height: 42.9px;
+    padding-left: 12px;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+
+}
+
+.input img {
+    position: absolute;
+    top: 35%;
+    right: 18.15px;
+    width: 22.855px;
+    height: 11.55px;
+}
+
+.info__name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__name p {
+    font-size: 20px;
+    padding: 0 15px;
+    /* text-align: start; */
+}
+
+.info__text {
+    padding-left: 0;
+}
+
+.info__text p {
+    text-align: start;
+    font-size: 16px;
+}
+
+.empty-photo__body {
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C0C0C0;
+    padding: 66px;
+    border-radius: 60px;
+    height: 325px;
+}
+
+.empty-photo p {
+    margin: 0;
+    font-size: 32px;
+}
+
+.wtf {
+    margin-bottom: 52px;
+}
+
+.wtf img {
+    height: 468px;
+    border-radius: 100px;
+}
+
+.wtf div {
+    height: 468px;
+    border-radius: 100px;
+    background: #C0C0C0;
+    background-clip: content-box;
+}
+
+.find-result {
+    margin-top: 18px;
+    margin-bottom: 39px;
+}
+
+.find-result__line {
+    width: 1px;
+    height: 100%;
+    background: #808080;
+}
+
+.find-result p {
+    text-decoration: underline;
+}
+
+.find-resut h2{
+    margin: 0;
+}
+
+footer img {
+    width: 11.5px;
+    height: 11.5px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 10px;
+}
+
+footer {
+    padding: 0 !important;
+    height: 42px;
+    background: linear-gradient(180deg, #CAC0B4 0%, rgba(202, 192, 180, 0.70) 100%);
+}
+
+footer div a {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+footer a {
+    color: inherit;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    footer {
+        height: 83px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    footer img {
+        width: 23px;
+        height: 23px;
+    }
+
+
+    footer div a {
+        font-size: 20px;
+    }
+
+    .footer__author {
+        font-size: 15px;
+    }
+}
