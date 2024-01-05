@@ -221,6 +221,10 @@ input {
     margin-bottom: 39px;
 }
 
+.find-result img {
+    border-radius: 60px;
+}
+
 .find-result__line {
     width: 1px;
     height: 100%;
